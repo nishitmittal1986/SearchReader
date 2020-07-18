@@ -27,6 +27,7 @@ namespace SearchReadV1
             string uriString = GoogleRdb.Checked ? GoogleAdd : BingAdd;  
                      
 
+
             WebClient webClient = new WebClient();
 
             NameValueCollection nameValueCollection = new NameValueCollection();
